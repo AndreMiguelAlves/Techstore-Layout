@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechStore - Headsets</title>
+    <!--Link icones-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/> 
+    <!--Link Favicon-->
+    <link rel="icon" type="image/x-icon" href="Imgs/Favicon.png">
+    <!--Link CSS-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <div class="logo">
+                <img src="Imgs/Logo.png" alt="Techstore Logo">
+                <h1>Techstore</h1>
+            </div>
+            <nav class="nav">
+                <a href="#">Computers</a>
+                <a href="#">Tvs</a>
+                <a href="#">Acessories</a>
+                <a href="#">Promo</a>
+            </nav>
+            <div class="user-options">
+                <a href="#">
+                    <i class="fas fa-user"></i>Login
+                </a>
+                <input type="text" placeholder="Search Product">
+                <i class="fas fa-search"></i>
+            </div>
+        </div>
+    </header>
+    <main class="container">
+        <div class="product-details">
+            <!--IMAGE-->
+            <div class="product-gallery">
+                <img src="Imgs/fone_destaque.png" alt="Hearphone">
+                <div class="gallery-thumbnails">
+                    <img src="Imgs/fone1.png" alt="Hearphone detail 1">
+                    <img src="Imgs/fone2.png" alt="Hearphone detail 2">
+                    <img src="Imgs/fone3.png" alt="Hearphone detail 3">
+                </div>
+            </div>
+            <!--INFO-->
+            <div class="product-info">
+                <p class="product-path">
+                    <i class="fas fa-chevron-right"></i> Technology / Earphones / Bluetooth</p>
+                    <h2>Bluetooth Earphones - Black</h2>
+                    <p class="product-code">Product Code : 982SADX1</p>
+                    <p class=" price">80,00€</p>
+                    <p class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        45 reviews
+                    </p>
+                    <p class="product-description"> 
+                    The ultimate over-ear personal listening experience — now in fresh new colors. Deliver stunningly detailed, high-fidelity audio. Active Noise Cancellation to remove unwanted sound. Up to 20 hours of battery life on a single charge.
+                    </p>
+                    <div class="product-options">
+                        <label for="color"> Color: </label>
+                        <select name="color" id="color">
+                        <option value="Black">Black</option>
+                        <option value="White">White</option>
+                        <option value="Grey">Grey</option>
+                        </select>
+                        <label for="quantity">Quantity: </label>
+                        <input type="number" id="quantity" name="quantity" value="1">
+                    </div>
+                    <div class="buttons">
+                        <button class="add-to-cart">
+                            <i class="fas fa-shopping-cart"></i>
+                            Add to Cart
+                        </button>
+                        <button class="add-to-wishlist">
+                            <i class="fas fa-heart"></i>
+                            Add to Wishlist
+                        </button>
+                    </div>
+                    <p class="delivery">
+                        <i class="fas fa-truck"></i>
+                        Estimated delivery time: See our terms and conditions
+                    </p>
+            </div>
+        </div>
+        <div class="product-specs">
+            <ul class="tabs">
+                <li><i class="fas fa-info-circle"></i>Details</li>
+                <li><i class="fas fa-undo"></i>Returns</li>
+                <li><i class="fas fa-shipping-fast"></i>Delivery</li>
+            </ul>
+            <div class="specs-content">
+                <div>
+                    <p><strong>SKU:</strong>AC12357A</p>
+                    <p><strong>Product external material:</strong> Plastic ABS</p>
+                    <p><strong>Battery Life:</strong> Around 20 hours</p>
+                    <p><strong>Connectivity:</strong> Bluetooth 5.0</p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
